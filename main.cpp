@@ -3,8 +3,9 @@ using std::cout;
 using std::endl;
 
 int main() {
-    int anInt = 12;
-    for (auto i = 0; i < anInt; i++) {
+    int theInt = 25;
+    for (auto i = 0; i < theInt; i++) {
+        cout << 37 << endl;
         std::cout << "Howdy, Planet!" << endl;
     }
     return 0;
